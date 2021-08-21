@@ -26,6 +26,21 @@
         android:text="Dial"
         android:layout_margin="10dp"
         android:padding="10dp"/>
+    <EditText
+        android:id="@+id/et_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="enter url"
+        android:background="@drawable/edit_bg"
+        android:padding="10dp" />
+    <Button
+        android:id="@+id/btn_browser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="go to"
+        android:layout_margin="10dp"
+        android:padding="10dp"/>
 
     <EditText
         android:id="@+id/et_name"

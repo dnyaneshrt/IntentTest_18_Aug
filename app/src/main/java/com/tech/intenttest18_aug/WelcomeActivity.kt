@@ -9,6 +9,8 @@ class WelcomeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_welcome)
 
+        supportActionBar?.setTitle("it's welcome Ativity")
+
         var r_name = intent.getStringExtra("my_name")
         textView.setText("welcome : ${r_name}")
     }

@@ -19,5 +19,11 @@
         </activity>
 
     </application>
+   <queries>
+       <package android:name="com.linkedin.android"/>
+       <package android:name="com.jio.myjio"/>
+   </queries>
+
+
 
 </manifest>
